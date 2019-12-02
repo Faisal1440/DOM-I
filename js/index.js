@@ -55,3 +55,16 @@ Array.from(aTags).forEach((link, i) => {
   link.textContent = siteContent["nav"][`nav-item-${i + 1}`];
   link.style.color ="green";
 });
+
+
+
+
+
+
+
+
+
+
+//  FOOTER WITH P TAG
+const footer = document.querySelector('footer p');
+footer.textContent = siteContent['footer']['copyright'];
